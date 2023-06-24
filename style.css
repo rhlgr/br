@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+ height: 100%;
+}
+.main{
+    overflow-x: hidden;
+}
+
+
+
+
+.page3{
+  width: 100%;
+  height: 100vh;
+  background-color: #F3F3F3;
+}
+.top-container{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-container h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.fb a,.insta a,.twitter a ,.utube a {
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.49) ;
+}
+.connect a:hover {
+
+  color:rgba(255, 255, 255) ;
+}
+.fb i,.insta i ,.twitteer i ,.utube i {
+  font-size: 1.8vw;
+  margin:0 5px;
+}
+
+.fb,.insta,.twitter,.utube{
+  width: 3%;
+  height: 6vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin:0 5px;
+}
+.container{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center!important;
+}
+.iframe2{
+    width: 25%;
+    height: 65vh;
+    overflow: auto;
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 50px;
+}
+iframe{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    overflow: auto;
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    overflow: hidden;
+}
+.iframe1{
+    width: 25%;
+    height: 65vh;
+margin-left: 30px;
+}
+.iframe3{
+    width: 25%;
+    height: 65vh;
+  margin-left: 50px;
+}
+.iframe2::-webkit-scrollbar{
+    display: none;
+}
+.bottom-container{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-container h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+.bottom-container button{
+  padding: 12px 30px;
+  margin-left: 40px;
+  background-color: #E6058F;
+  border: 2px solid white;
+  outline: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.page4{
+    width: 100%;
+    height: 70vh;
+}
+.page4-top{
+  width: 100%;
+  height: 40vh;
+  background-image: url(images/donation-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.page4-top button{
+  background-color: #1DA516;
+  border: 2px solid white;
+  outline: none;
+  padding: 10px 50px;
+  color: white;
+  font-size: 17px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.page4-top h1{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+}
+.page4-top p{
+  color: white;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.page4-bottom{
+width: 100%;
+height: 30vh;
+  background-color: #F0F0F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  height: 100%;
+  width: 80%;
+}
+.footers{
+  height: 75%;
+  width: 100%;
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+.footers h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: rgb(38, 38, 38);
+}
+.footers p{
+  margin-bottom: 1px;
+  color: rgb(38, 38, 38);
+  cursor: pointer;
+  font-family: gilroy;
+  font-weight: 100;
+}
+
+.footer> p{
+  text-align: center;
+  margin-top: 15px;
+  font-family: gilroy;
+  font-size: 14px;
+}
+.footer> p span{
+color: blue;
+cursor: pointer;
+}
+.page1{
+  width: 100%;
+  height: 100vh;
+/* background-color: aquamarine; */
+padding: 20px;
+}
+.page1-top{
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.page1-top h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.page1-bottom{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.L1a,.L2a,.L3a,.L4a{
+  width: 30%;
+  height: 80vh;
+  display: flex;
+  overflow: hidden;
+  background-color: #971c68;
+  cursor: pointer;
+}
+.L1{ 
+  width: 100%;
+  height: 80vh;
+  background-image: url(images/Kalvakuntla-Chandrashekar-Rao.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: 1s all ease-in-out;
+}
+.L2{ 
+  width: 100%;
+  height: 80vh;
+  background-image: url(images/Kalvakuntla_Taraka_Rama_Rao.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: 1s all ease-in-out;
+}
+.L3{ 
+  width: 100%;
+  height: 80vh;
+  background-image: url(images/K.Keshav_Rao_DSC_9164_CROPPED.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: 1s all ease-in-out;
+}
+.L4{ 
+  width: 100%;
+  height: 80vh;
+  background-image: url(images/Nama-Nageswara-Rao’s-illicit-affair-exposed-Criminal-Case-filed.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: 1s all ease-in-out;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.356);
+  transform: translateY(100%);
+  transition: .5s all ease;
+}
+.L1:hover,.L2:hover,.L3:hover,.L4:hover {
+  transform: scale(1.1); 
+
+}
+.L1:hover .overlay,.L2:hover .overlay,.L3:hover .overlay,.L4:hover .overlay {
+  transform: translateY(0%); 
+
+}
+.content> h1 {
+  font: 900 1.4vmax "sans" ;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+.content > h2 {
+  font: 900 1.3vmax "sans" ;
+  color: rgb(253, 249, 249);
+  position: absolute;
+  top: 85%;
+  left: 10%;
+}
+
+
+.page2{
+  width: 100%;
+  height: 170vh;
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+}
+.page2-top{
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 5vh;
+}
+
+
+.page2-title{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.page2-title h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.page2-Content {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.news{
+  width: 28%;
+  height: 30vh;
+  background-color:white;
+  position: relative;
+  padding: 40px 20px;
+  border-radius:10px;
+  margin-top: 30px;
+ 
+}
+.page2-Content h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.page2-Content p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.date{
+  background-color: #F412BE;
+  width: fit-content;
+  padding: 6px 40px;
+  border-radius: 2px;
+position: absolute;
+ top: -10px;
+ left: 10px;
+ color: #fff;
+}
+.page2-middle{
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 8vh;
+}
+.page2-media{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.media{
+  width: 30%;
+  height: 35vh;
+  padding: 10px 20px;
+}
+.mediatop{
+width: 100%;
+height: 100%;
+}
+.mediatop img{
+  width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.mediabottom{
+  width: 100%;
+  height: 5vh;
+  background-color: #F412BE;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.mediabottom h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+}
+.page2-last{
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 10vh;
+}
+.videos{
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 20px;
+}
+.video{
+  width: 30%;
+  height: 40vh;
+}
+.video iframe{
+  width: 100%;
+  height: 100%;
+}
+.videodec{
+  width: 100%;
+  height: 5vh;
+  background-color: #F412BE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1vh;
+  color: #fff;
+}
+.videodec p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+}
+.page5{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background-color: rgb(66, 66, 66);
+}
+.page5-left{
+  width: 50%;
+  height: 100%;
+  background-image: url(images/india-map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+position: relative;
+}
+.imgdiv{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+
+}
+.imgdiv img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.page5-right{
+  width: 50%;
+  height: 100%;
+  background-color: #111111;
+  color: #fff;
+  padding: 70px;
+}
+.page5-right h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+}
+.page5-right h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.page5-right p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.logos{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.logos img{
+  height: 50px;
+}
+.logos h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+.logo1{
+  width: 35%;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #F412BE;
+  margin-right: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.logo2{
+  width: 35%;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color:#F412BE;
+  margin-left: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.logo3{
+  width: 35%;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #F412BE;
+  margin-left: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.page0{
+  width: 100%;
+  height: 100vh;
+  background-color: #971c68;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
